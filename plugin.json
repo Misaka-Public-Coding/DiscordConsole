@@ -1,7 +1,7 @@
 {
-  "name": "ExamplePlugin",
-  "author": "Anuke",
-  "main": "example.ExamplePlugin",
-  "description": "A plugin to demonstrate some basic features.",
-  "version": 1.0
+  "name": "Discord Logger",
+  "author": "misaka0954",
+  "main": "uwu.misaka.discordLogger.EntryPoint",
+  "description": "A plugin to secure console usage.",
+  "version": 0.1
 }
