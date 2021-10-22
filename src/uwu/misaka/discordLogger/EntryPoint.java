@@ -3,6 +3,8 @@ package uwu.misaka.discordLogger;
 import arc.util.Log;
 import mindustry.mod.Plugin;
 
+import java.util.Date;
+
 public class EntryPoint extends Plugin {
     public static String password = "ohayo-Onii-chan191021!";
     public Log.LogHandler oldLogger;
@@ -21,7 +23,7 @@ public class EntryPoint extends Plugin {
             return;
         }
         if (l == Log.LogLevel.err) {
-            //TODO обработка stacktrace;
+            Connector.sendError(s, new Date().toString());
         } else if (l == Log.LogLevel.info) {
             //TODO проверка на многолинейность.
         }
